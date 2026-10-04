@@ -31,14 +31,10 @@
 /* colour & typography */
 /* setting the font family for the entire page */
 body {
+    background-color: var(--dark);
     font-family:'Courier New', Courier, monospace;
     font-size: 1.125rem;
     line-height: 1.6;
-}
-
-/* changed the background colour */
-body{
-    background-color: var(--dark);
 }
 
 /* features Google Font Kalnia Glaze */
