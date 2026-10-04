@@ -155,3 +155,13 @@ dt:nth-child(odd){
 dt:first-child{
     background-color: var(--main-color);
 }
+
+/* using the ::before tag */
+/* the lightbulb icon is purely decorative, it adds no additional meaning to the button meaning it can be ignored by screen readers */
+.button::before{
+    content: url("/images/noun_LightBulb_15217.svg");
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height:auto;
+}
