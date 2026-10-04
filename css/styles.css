@@ -143,15 +143,15 @@ dt{
     border-radius: 5px;
 }
 
+dd{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 dt:nth-child(odd){
     background-color: var(--color-o50);
 }
 
 dt:first-child{
     background-color: var(--main-color);
-}
-
-dd{
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
