@@ -165,3 +165,23 @@ dt:first-child{
     width: 20px;
     height:auto;
 }
+
+/* specificity experiment */
+/* prediction: the ID selector will override the class and element selectors, so the text color will be orange */
+p{
+    color:#fff; 
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+.image-heading{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+#mountain-photo{
+    color: var(--main-color);
+    margin-top: 40px;
+    font-weight: 800;
+}
