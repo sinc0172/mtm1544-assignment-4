@@ -37,11 +37,11 @@ body {
     line-height: 1.6;
 }
 
-/* features Google Font Kalnia Glaze */
+/* features Google Font Isometra */
 /* changed h1 colour to orange*/
 h1{
     color: var(--main-color);
-    font-family: 'Kalnia Glaze', Georgia, serif;
+    font-family: 'Isometra', Georgia, serif;
     font-size: 3.5rem;
     line-height: 1.15;
     text-wrap: balance;
@@ -127,7 +127,31 @@ p{
     margin-top: 20px;
 }
 
-/* styling list */
+/* styling list: basic styling, more specific */
 dl{
     color:#fff;
+    line-height: 200%;
+    background-color: var(--color-o30);
+    padding: 20px;
+    border-radius: 15px;
+    border: 4px solid var(--secondary-color);
+}
+
+dt{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+dt:nth-child(odd){
+    background-color: var(--color-o50);
+}
+
+dt:first-child{
+    background-color: var(--main-color);
+}
+
+dd{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
