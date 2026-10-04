@@ -64,7 +64,8 @@ p{
 /* changed text color of intro paragraph; font size determined from Week 1 */
 .intro{
     color: var(--color-o90); 
-    font-size:16px;
+    font-size: 18px;
+    font-weight: 800;
 }
 
 #before-you-go{
@@ -124,4 +125,9 @@ p{
     aspect-ratio: 16/9;
     width: 100%;
     margin-top: 20px;
+}
+
+/* styling list */
+dl{
+    color:#fff;
 }
