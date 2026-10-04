@@ -47,8 +47,8 @@ h1{
     text-wrap: balance;
 }
 
-/*changed h2 colour to yellow */
-h2{
+/* adjusted to use the :where selector */
+:where(h2, h3, #before-you-go){
     color: var(--secondary-color);
     font-size: 1.75rem;
     line-height: 1.3;
@@ -66,11 +66,6 @@ p{
     color: var(--color-o90); 
     font-size: 18px;
     font-weight: 800;
-}
-
-#before-you-go{
-    color: var(--main-color);
-    margin-bottom: 40px;
 }
 
 /* interactive color changes; adding :focus style */
@@ -185,3 +180,4 @@ p{
     margin-top: 40px;
     font-weight: 800;
 }
+
