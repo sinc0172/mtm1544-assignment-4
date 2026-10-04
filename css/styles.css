@@ -1,4 +1,4 @@
-/* MTM1544 Week 3 */
+/* MTM1544 Week 4: Specficity in Practice */
 
 /* setting the box-sizing property to border-box for all elements */
 * {
@@ -76,7 +76,7 @@ p{
     margin-bottom: 40px;
 }
 
-/* interactive color changes */
+/* interactive color changes; adding :focus style */
 .button {
   color: #fff;
   background-color: var(--color-o30);
@@ -86,10 +86,16 @@ p{
   margin-bottom: 40px;
 }
 .button:hover {
-  background-color: color-mix(in oklch, var(--color-o30) 85%, black);
-  border: 2px solid var(--color-o90);
-  color: var(--color-o90);
+  background-color: color-mix(in oklch, var(--color-o90) 85%, black);
+  border: 2px solid var(--color-o30);
+  color: var(--color-o30);
   margin-bottom: 40px;
+}
+.button:focus {
+    background-color: color-mix(in oklch, var(--color-o90) 85%, black);
+    border: 2px solid var(--color-o30);
+    color: var(--color-o30);
+    margin-bottom: 40px;
 }
 
 /* box properties */
